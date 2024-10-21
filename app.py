@@ -1,8 +1,9 @@
 from flask import Flask, render_template ,request
 app= Flask(__name__)
+
 @app.route('/') 
 def home():
-    return render_template ('home.html')
+    return render_template ('index.html')
 # Ruta dinamica
 @app.route('/user/<name>')  # Ruta dinámica /user/nombre
 def user(name):
