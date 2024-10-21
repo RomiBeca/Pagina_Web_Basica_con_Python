@@ -1,0 +1,19 @@
+/* static/css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1 {
+    color: #0080ff;
+    text-align: center;
+}
+
+h2{
+    color: rgb(201, 114, 0);
+}
+p {
+    font-size: 1.2em;
+    text-align: center;
+}
